@@ -1,0 +1,16 @@
+## Running Locally
+
+`flask run`
+
+# Accessing Files
+
+To download everything from the bucket, use the singsong-data bucket
+
+```gcloud storage cp --recursive gs://singsong-data/audiofiles .```
+
+Files are in 48000Hz sampling rate, in wav form
+To use in Audacity, FFMPEG must be installed.
+
+
+# Working with these files in Audacity
+Need to install FFmpeg - not sure what the filetype of these are. Pretty sure they're wav files
